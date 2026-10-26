@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARATS ATELIER | Timeless Luxury Fine Jewellery</title>
+  <meta name="description" content="Discover handcrafted fine jewellery in 18K solid gold and conflict-free diamonds. Timeless luxury designed to become your story.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23B69A65'><path d='M12 2L2 9l10 13 10-13-10-7z'/></svg>">
+</head>
+<body class="theme-bright theme-timeless">
+
+  <!-- ==================== ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    Complimentary Insured White-Glove Shipping Across India &bull; Bespoke Atelier Consultations
+  </div>
+
+  <!-- ==================== GLOBAL NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="home-1.html" class="brand-logo" aria-label="Carats Atelier Homepage">
+        <span class="brand-wordmark">CARATS ATELIER</span>
+        <span class="brand-subtext">BRIGHT LUXURY &bull; FINE JEWELLERY</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <div class="nav-concept-group" title="Select Homepage Experience">
+          <a href="home-1.html" class="nav-concept-link active" data-concept="home-1">Home 1</a>
+          <a href="home-2.html" class="nav-concept-link" data-concept="home-2">Home 2</a>
+          <a href="home-3.html" class="nav-concept-link" data-concept="home-3">Home 3</a>
+        </div>
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#bestsellers" class="nav-link">Bestsellers</a>
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#craftsmanship" class="nav-link">Craftsmanship</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Icons -->
+      <div class="nav-actions">
+        <!-- Search Trigger -->
+        <button class="action-btn search-trigger-btn" aria-label="Search Jewellery Catalogue">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </button>
+
+        <!-- Wishlist Trigger -->
+        <button class="action-btn" id="header-wishlist-btn" aria-label="View Wishlist">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+          <span class="action-badge wishlist-count-badge" style="display: none;">0</span>
+        </button>
+
+        <!-- Shopping Bag Trigger -->
+        <button class="action-btn" id="header-bag-btn" aria-label="View Atelier Bag">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+          <span class="action-badge bag-count-badge">1</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" aria-label="Open Mobile Menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE DRAWER ==================== -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <span class="brand-wordmark" style="font-size: 1.25rem;">CARATS ATELIER</span>
+          <span class="brand-subtext">FINE JEWELLERY</span>
+        </div>
+        <button class="mobile-close-btn" aria-label="Close Mobile Menu">&times;</button>
+      </div>
+
+      <div class="mobile-concept-list">
+        <span class="mobile-concept-title">Select Experience:</span>
+        <a href="home-1.html" class="nav-concept-link active" data-concept="home-1">Home 1</a>
+        <a href="home-2.html" class="nav-concept-link" data-concept="home-2">Home 2</a>
+        <a href="home-3.html" class="nav-concept-link" data-concept="home-3">Home 3</a>
+      </div>
+
+      <nav class="mobile-nav-links">
+        <a href="#collections" class="mobile-nav-link">Collections</a>
+        <a href="#bestsellers" class="mobile-nav-link">Bestsellers</a>
+        <a href="#story" class="mobile-nav-link">Our Story</a>
+        <a href="#craftsmanship" class="mobile-nav-link">Craftsmanship</a>
+        <a href="#gifting" class="mobile-nav-link">Curated Gifts</a>
+        <a href="#contact" class="mobile-nav-link">Contact & Concierge</a>
+      </nav>
+
+      <div style="padding-top: 2rem; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted);">
+        <p>Atelier Appointments: +91 98200 12345</p>
+        <p>concierge@caratsatelier.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== HERO SECTION (TIMELESS LUXURY) ==================== -->
+    <section class="hero-timeless" id="hero">
+      <img src="assets/images/hero-timeless.jpg" alt="Exquisite 18K gold and diamond jewellery editorial campaign" class="hero-timeless-bg">
+      <div class="hero-timeless-overlay"></div>
+      <div class="hero-timeless-content">
+        <span class="eyebrow">Haute Joaillerie &bull; Heritage Craftsmanship</span>
+        <h1 class="hero-timeless-title">Jewellery That Becomes Your Story</h1>
+        <p class="hero-timeless-desc">
+          Thoughtfully chosen pieces for life's most beautiful moments. Handcrafted in hallmarked 18K solid gold and certified conflict-free diamonds.
+        </p>
+        <div class="hero-btn-group">
+          <a href="#collections" class="btn btn-primary">Explore the Collection</a>
+          <a href="#story" class="btn btn-secondary">Discover Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED COLLECTIONS ==================== -->
+    <section class="section-padding" id="collections">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: clamp(2.5rem, 5vw, 4rem);">
+          <span class="eyebrow">Curated Universes</span>
+          <h2 class="section-title">The Atelier Collections</h2>
+          <p class="section-desc">Each silhouette is designed with intentional balance, celebrating the interplay of light and precious metals.</p>
+        </div>
+
+        <div class="category-grid">
+          <!-- Rings -->
+          <a href="#bestsellers" class="category-card" aria-label="Explore Rings">
+            <img src="assets/images/cat-rings.jpg" alt="Fine diamond rings and gold solitaires" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Rings</h3>
+              <span class="category-card-count">Solitaires & Stacks &bull; 24 Pieces</span>
+            </div>
+          </a>
+
+          <!-- Necklaces -->
+          <a href="#bestsellers" class="category-card" aria-label="Explore Necklaces">
+            <img src="assets/images/cat-necklaces.jpg" alt="Gold pendants and diamond necklaces" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Necklaces</h3>
+              <span class="category-card-count">Chains & Pendants &bull; 18 Pieces</span>
+            </div>
+          </a>
+
+          <!-- Earrings -->
+          <a href="#bestsellers" class="category-card" aria-label="Explore Earrings">
+            <img src="assets/images/cat-earrings.jpg" alt="Pearl drop earrings and diamond studs" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Earrings</h3>
+              <span class="category-card-count">Hoops, Studs & Drops &bull; 32 Pieces</span>
+            </div>
+          </a>
+
+          <!-- Bracelets -->
+          <a href="#bestsellers" class="category-card" aria-label="Explore Bracelets">
+            <img src="assets/images/cat-bracelets.jpg" alt="Gold link bracelets and diamond tennis bracelets" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Bracelets</h3>
+              <span class="category-card-count">Tennis & Cuffs &bull; 14 Pieces</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BESTSELLERS (4 ICONIC PRODUCT CARDS) ==================== -->
+    <section class="section-padding" id="bestsellers" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: clamp(2.5rem, 5vw, 3.5rem); flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">Atelier Icons</span>
+            <h2 class="section-title">The Bestselling Creations</h2>
+          </div>
+          <button class="btn-underline" onclick="showToast('Displaying full 32-piece catalogue in presentation modal.', '✦')">View All Signatures &rarr;</button>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 1: Celeste Gold Necklace -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-gold">Bestseller</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="celeste-necklace" aria-label="Save Celeste Gold Necklace to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/celeste-necklace.jpg" alt="Celeste Gold Necklace in 18K yellow gold" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="celeste-necklace">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Necklaces</span>
+              <h3 class="product-title">Celeste Gold Necklace</h3>
+              <div class="product-footer">
+                <span class="product-price">₹58,500</span>
+                <button class="product-add-btn" onclick="addToBag('celeste-necklace')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: Grace Diamond Ring -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-gold">Signature</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="grace-ring" aria-label="Save Grace Diamond Ring to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/grace-ring.jpg" alt="Grace Diamond Ring cushion cut solitaire" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="grace-ring">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Rings</span>
+              <h3 class="product-title">Grace Diamond Ring</h3>
+              <div class="product-footer">
+                <span class="product-price">₹1,45,000</span>
+                <button class="product-add-btn" onclick="addToBag('grace-ring')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: Luna Pearl Earrings -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-gold">New Arrival</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="luna-earrings" aria-label="Save Luna Pearl Earrings to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/luna-earrings.jpg" alt="Luna Pearl Earrings in 18K solid gold" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="luna-earrings">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Earrings</span>
+              <h3 class="product-title">Luna Pearl Earrings</h3>
+              <div class="product-footer">
+                <span class="product-price">₹38,200</span>
+                <button class="product-add-btn" onclick="addToBag('luna-earrings')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4: Aurora Tennis Bracelet -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-gold">Iconic</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="aurora-bracelet" aria-label="Save Aurora Tennis Bracelet to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/aurora-bracelet.jpg" alt="Aurora Tennis Bracelet with brilliant diamonds" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="aurora-bracelet">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Bracelets</span>
+              <h3 class="product-title">Aurora Tennis Bracelet</h3>
+              <div class="product-footer">
+                <span class="product-price">₹1,15,000</span>
+                <button class="product-add-btn" onclick="addToBag('aurora-bracelet')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BRAND STORY (SPLIT IMAGE & TEXT) ==================== -->
+    <section class="section-padding" id="story">
+      <div class="container">
+        <div class="split-section">
+          <div class="split-media">
+            <img src="assets/images/craft-atelier.jpg" alt="Master jewellery craftsman hand-setting precious stones in the atelier" class="split-img" loading="lazy">
+            <div class="split-floating-note">
+              <div class="split-note-num">100%</div>
+              <div class="split-note-text">Hallmarked Recycled 18K Solid Gold & Certified Diamonds</div>
+            </div>
+          </div>
+          <div class="split-content">
+            <span class="eyebrow">Our Philosophy</span>
+            <h2 class="section-title">An Unwavering Pursuit of Pure Perfection</h2>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.5rem;">
+              Carats Atelier was born from a quiet refusal to accept the fleeting nature of modern fast fashion. We believe genuine fine jewellery is an emotional heirloom — an enduring vessel for personal milestones, declarations of love, and quiet self-triumphs.
+            </p>
+            <p style="font-size: 0.95rem; line-height: 1.75; color: var(--text-secondary); margin-bottom: 2rem;">
+              Every curve, prong, and bezel is sculpted in our private atelier by generational karigars who unite century-old goldsmithing traditions with modern laser micro-setting accuracy.
+            </p>
+            <div style="display: flex; gap: 2.5rem; border-top: 1px solid var(--border-subtle); padding-top: 1.5rem;">
+              <div>
+                <span style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 600; color: var(--accent-gold);">25+</span>
+                <p style="font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.2rem;">Years of Craft</p>
+              </div>
+              <div>
+                <span style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 600; color: var(--accent-gold);">IGI & GIA</span>
+                <p style="font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.2rem;">Certified Stones</p>
+              </div>
+              <div>
+                <span style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 600; color: var(--accent-gold);">Bespoke</span>
+                <p style="font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-top: 0.2rem;">Custom Tailored</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CRAFTSMANSHIP & MATERIALS ==================== -->
+    <section class="section-padding" id="craftsmanship" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="text-align: center; max-width: 650px; margin-inline: auto;">
+          <span class="eyebrow">The Gold Standard</span>
+          <h2 class="section-title">Ethical Sourcing & Master Metallurgy</h2>
+          <p class="section-desc">We honour the earth through sustainable metallurgy and strict conflict-free Kimberley Process certification.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-box">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 9l10 13 10-13-10-7z"/>
+            </svg>
+            <h3 class="feature-title">BIS Hallmarked 18K & 22K Gold</h3>
+            <p class="feature-desc">All pieces are stamped with government-certified BIS hallmark stamps confirming true fineness and nickel-free skin comfort.</p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-box">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+            <h3 class="feature-title">Conflict-Free Certified Diamonds</h3>
+            <p class="feature-desc">Every diamond from our melee pavé to solitaire centerpieces is hand-inspected for exceptional colour (D-F) and VVS clarity.</p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-box">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.4" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <h3 class="feature-title">Generational Master Karigars</h3>
+            <p class="feature-desc">Each mount is carefully hand-filed, burnished, and polished to a flawless mirror luster that endures across generations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROMOTIONAL BANNER ==================== -->
+    <section class="promo-banner">
+      <img src="assets/images/materials-gold.jpg" alt="Rich gold jewellery showcase" class="promo-banner-bg" loading="lazy">
+      <div class="container promo-banner-content">
+        <span class="eyebrow" style="color: var(--accent-gold-light);">The Heirloom Edit</span>
+        <h2 class="promo-banner-title">Treasures Designed to Outlast Time</h2>
+        <p class="promo-banner-desc">
+          Receive a bespoke velvet jewellery presentation trunk and lifetime complimentary inspection with any heirloom commission this season.
+        </p>
+        <a href="#bestsellers" class="btn btn-primary" style="background-color: var(--accent-gold); color: #FFFFFF; border-color: var(--accent-gold);">
+          Discover The Heirloom Edit
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== CURATED GIFT COLLECTION ==================== -->
+    <section class="section-padding" id="gifting">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: clamp(2.5rem, 5vw, 4rem);">
+          <span class="eyebrow">Curated Celebrations</span>
+          <h2 class="section-title">The Art of Fine Gifting</h2>
+          <p class="section-desc">Presented in signature embossed keepsake boxes tied with silk grosgrain ribbon.</p>
+        </div>
+
+        <div class="gifting-grid">
+          <!-- Gift 1 -->
+          <div class="gift-card">
+            <img src="assets/images/gift-box.jpg" alt="Luxury gift box presentation" loading="lazy">
+            <div class="gift-card-content">
+              <h3 class="gift-card-title">Milestone Anniversaries</h3>
+              <span class="gift-card-sub">Eternity Bands & Tennis Bracelets</span>
+            </div>
+          </div>
+
+          <!-- Gift 2 -->
+          <div class="gift-card">
+            <img src="assets/images/romantic-moment.jpg" alt="Couple celebrating with gold ring" loading="lazy">
+            <div class="gift-card-content">
+              <h3 class="gift-card-title">Birthday Treasures</h3>
+              <span class="gift-card-sub">Pendants & Daily Diamonds</span>
+            </div>
+          </div>
+
+          <!-- Gift 3 -->
+          <div class="gift-card">
+            <img src="assets/images/editorial-1.jpg" alt="Fine jewellery model" loading="lazy">
+            <div class="gift-card-content">
+              <h3 class="gift-card-title">The Bridal Suite</h3>
+              <span class="gift-card-sub">South Sea Pearls & Chokers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== NEWSLETTER SECTION ==================== -->
+    <section class="section-padding newsletter-section">
+      <div class="container">
+        <div class="newsletter-card">
+          <span class="eyebrow">The Atelier Society</span>
+          <h2 class="section-title" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Invitations to New Collections & Private Salons</h2>
+          <p class="section-desc">Be the first to preview rare gemstone acquisitions, private trunk shows, and editorial stories.</p>
+          
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn-primary">Join Atelier</button>
+          </form>
+          <div class="newsletter-feedback"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== REFINED MULTI-COLUMN FOOTER ==================== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="brand-wordmark">CARATS ATELIER</span>
+            <span class="brand-subtext" style="color: var(--accent-gold-light);">HAUTE JOAILLERIE</span>
+          </div>
+          <p class="footer-desc">
+            An artisan fine jewellery house dedicated to timeless proportion, ethical gold, and the quiet dignity of everlasting luxury.
+          </p>
+          <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.6); margin-top: 1rem;">
+            &bull; BIS Hallmarked &bull; GIA Certified &bull; Handcrafted in India
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Collections</h4>
+          <ul class="footer-links">
+            <li><a href="#collections" class="footer-link">Diamond Solitaire Rings</a></li>
+            <li><a href="#collections" class="footer-link">Gold Chains & Pendants</a></li>
+            <li><a href="#collections" class="footer-link">Natural Pearl Drops</a></li>
+            <li><a href="#collections" class="footer-link">Diamond Tennis Bracelets</a></li>
+            <li><a href="#gifting" class="footer-link">Celebration Gifting</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Atelier Care</h4>
+          <ul class="footer-links">
+            <li><a href="#story" class="footer-link">Our Heritage</a></li>
+            <li><a href="#craftsmanship" class="footer-link">Materials & Sourcing</a></li>
+            <li><a href="javascript:void(0)" onclick="showToast('Complimentary cleaning and prong checks available at our atelier.', '✨')" class="footer-link">Jewellery Care Guide</a></li>
+            <li><a href="javascript:void(0)" onclick="showToast('Complimentary ring sizing ring sizer dispatched on request.', '💍')" class="footer-link">Complimentary Ring Sizer</a></li>
+            <li><a href="javascript:void(0)" onclick="showToast('White-glove insured delivery partner: Sequel Logistics.', '📦')" class="footer-link">Insured Shipping & Returns</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Private Concierge</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span>+91 98200 12345</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span>concierge@caratsatelier.com</span>
+          </div>
+          <div class="footer-contact-item" style="margin-top: 1rem; font-size: 0.8rem; line-height: 1.5;">
+            <span>Flagship Salon: Bandra West, Mumbai &bull; Private Viewings by Appointment</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CARATS ATELIER &bull; Sample Jewellery Design Proposal. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="home-1.html">Home 1</a>
+          <a href="home-2.html">Home 2</a>
+          <a href="home-3.html">Home 3</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== QUICK-VIEW PRODUCT MODAL ==================== -->
+  <div class="modal-overlay" id="quickview-modal" role="dialog" aria-modal="true" aria-label="Product Details Modal">
+    <div class="quickview-card">
+      <button class="modal-close-btn" id="quickview-close" aria-label="Close modal">&times;</button>
+      <div class="quickview-image-pane">
+        <img id="qv-image" src="assets/images/celeste-necklace.jpg" alt="Jewellery Piece">
+      </div>
+      <div class="quickview-details-pane">
+        <span class="quickview-category" id="qv-category">Necklaces</span>
+        <h3 class="quickview-title" id="qv-title">Celeste Gold Necklace</h3>
+        <div class="quickview-price" id="qv-price">₹58,500</div>
+        <p class="quickview-desc" id="qv-desc">
+          An ethereal creation crafted in 18K hallmarked yellow gold, adorned with handset brilliant-cut pavé diamonds that capture subtle, celestial luminosity.
+        </p>
+
+        <div class="quickview-spec-list">
+          <div class="quickview-spec-item">
+            <span>Precious Metal</span>
+            <strong id="qv-metal">18K Solid Gold</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Diamond Quality</span>
+            <strong id="qv-stone">VVS-VS Conflict-Free</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Certification</span>
+            <strong>BIS Hallmark & Atelier Certificate</strong>
+          </div>
+        </div>
+
+        <div class="quickview-actions">
+          <button class="btn btn-primary" id="qv-add-bag" style="flex: 2;">Add to Atelier Bag</button>
+          <button class="btn btn-secondary" id="qv-add-wishlist" style="flex: 1;">Save ♡</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SHOPPING BAG DRAWER ==================== -->
+  <aside class="drawer-panel" id="bag-drawer" aria-label="Shopping Bag Slide-over">
+    <div class="drawer-header">
+      <h3 class="drawer-title">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+          <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+        </svg>
+        <span>Your Atelier Bag</span>
+      </h3>
+      <button class="mobile-close-btn" id="bag-drawer-close" aria-label="Close Shopping Bag">&times;</button>
+    </div>
+
+    <div class="drawer-body" id="bag-drawer-items">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <div class="drawer-footer">
+      <div class="drawer-subtotal">
+        <span>Estimated Total</span>
+        <span id="bag-drawer-subtotal">₹58,500</span>
+      </div>
+      <p style="font-size: 0.72rem; color: #888; margin-bottom: 1.25rem;">
+        * Includes all statutory taxes, BIS hallmarking charges, and insured courier delivery.
+      </p>
+      <button class="btn btn-primary" id="drawer-checkout-btn" style="width: 100%;">Proceed to Concierge Booking</button>
+    </div>
+  </aside>
+
+  <!-- ==================== SEARCH MODAL OVERLAY ==================== -->
+  <div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Search Catalogue">
+    <div class="search-modal-header">
+      <div class="brand-logo">
+        <span class="brand-wordmark" style="font-size: 1.2rem;">CARATS ATELIER</span>
+        <span class="brand-subtext">CATALOGUE SEARCH</span>
+      </div>
+      <button class="modal-close-btn" id="search-close-btn" aria-label="Close search overlay">&times;</button>
+    </div>
+
+    <div class="search-bar-wrap">
+      <input type="text" class="search-input-field" id="search-input" placeholder="Search necklaces, solitaire rings, pearls, gold..." autocomplete="off">
+    </div>
+
+    <div class="search-results-grid" id="search-results">
+      <!-- Injected dynamically via JS -->
+    </div>
+  </div>
+
+
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript Engine -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARATS BY GRACE | Fine Lab-Grown Diamond Jewellery</title>
+  <meta name="description" content="Conscious fine jewellery crafted with 100% real IGI-certified lab-grown diamonds in 14K and 18K solid gold. Founded by Nishi & Prateek.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C08A63'><path d='M12 2L2 9l10 13 10-13-10-7z'/></svg>">
+</head>
+<body class="theme-grace">
+
+  <!-- ==================== ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    ✦ IGI-Certified Lab-Grown Diamonds &bull; 100% Real Diamonds in 14K & 18K Solid Gold &bull; Visit our Lucknow Flagship Salon
+  </div>
+
+  <!-- ==================== GLOBAL NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="home-3.html" class="brand-logo" aria-label="Carats by Grace Homepage">
+        <span class="brand-wordmark">CARATS BY GRACE</span>
+        <span class="brand-subtext" style="color: var(--accent-gold);">FINE LAB-GROWN DIAMONDS &bull; BY NISHI & PRATEEK</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <div class="nav-concept-group" title="Select Homepage Experience">
+          <a href="home-1.html" class="nav-concept-link" data-concept="home-1">Home 1</a>
+          <a href="home-2.html" class="nav-concept-link" data-concept="home-2">Home 2</a>
+          <a href="home-3.html" class="nav-concept-link active" data-concept="home-3">Home 3</a>
+        </div>
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#science" class="nav-link">Why Lab Diamonds</a>
+        <a href="#bestsellers" class="nav-link">Bestsellers</a>
+        <a href="#founders" class="nav-link">Our Story</a>
+        <a href="#instagram" class="nav-link">@caratsbygrace</a>
+        <a href="#showroom" class="nav-link">Showroom</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="action-btn search-trigger-btn" aria-label="Search Diamond Catalogue">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </button>
+
+        <button class="action-btn" id="header-wishlist-btn" aria-label="Saved Favourites">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+          <span class="action-badge wishlist-count-badge" style="display: none;">0</span>
+        </button>
+
+        <button class="action-btn" id="header-bag-btn" aria-label="View Shopping Bag">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+          <span class="action-badge bag-count-badge">1</span>
+        </button>
+
+        <button class="mobile-toggle" aria-label="Open Mobile Menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE DRAWER ==================== -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <span class="brand-wordmark" style="font-size: 1.2rem;">CARATS BY GRACE</span>
+          <span class="brand-subtext" style="color: var(--accent-gold);">LAB-GROWN DIAMONDS</span>
+        </div>
+        <button class="mobile-close-btn" aria-label="Close Mobile Menu">&times;</button>
+      </div>
+
+      <div class="mobile-concept-list">
+        <span class="mobile-concept-title">Select Experience:</span>
+        <a href="home-1.html" class="nav-concept-link" data-concept="home-1">Home 1</a>
+        <a href="home-2.html" class="nav-concept-link" data-concept="home-2">Home 2</a>
+        <a href="home-3.html" class="nav-concept-link active" data-concept="home-3">Home 3</a>
+      </div>
+
+      <nav class="mobile-nav-links">
+        <a href="#collections" class="mobile-nav-link">Diamond Collections</a>
+        <a href="#science" class="mobile-nav-link">Why Lab Diamonds</a>
+        <a href="#bestsellers" class="mobile-nav-link">Bestselling Pieces</a>
+        <a href="#founders" class="mobile-nav-link">About Nishi & Prateek</a>
+        <a href="#instagram" class="mobile-nav-link">@caratsbygrace Instagram</a>
+        <a href="#showroom" class="mobile-nav-link">Lucknow Showroom</a>
+      </nav>
+
+      <div style="padding-top: 2rem; border-top: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-muted);">
+        <p>Showroom: Mahanagar, Lucknow, UP</p>
+        <p>WhatsApp Video: +91 98200 12345</p>
+        <p>hello@caratsbygrace.com</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== HERO SECTION (CARATS BY GRACE) ==================== -->
+    <section class="hero-romantic" id="hero">
+      <div class="container hero-romantic-grid">
+        <div class="hero-romantic-text">
+          <span class="eyebrow">&mdash; Conscious Fine Jewellery &bull; IGI Certified &mdash;</span>
+          <h1 class="hero-romantic-title">
+            Brilliance <span>Without Compromise.</span>
+          </h1>
+          <p class="hero-romantic-desc">
+            100% Real Diamonds. Cultivated with science, hand-finished with soul. Founded by Nishi & Prateek to make magnificent diamond jewellery ethical, transparent, and accessible for modern life.
+          </p>
+
+          <!-- Trust Badges -->
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 2rem;">
+            <span class="badge badge-rose">💎 100% Real Diamonds</span>
+            <span class="badge badge-rose">📜 IGI Certified</span>
+            <span class="badge badge-rose">🌿 Zero Mining Impact</span>
+            <span class="badge badge-rose">📍 Lucknow Salon</span>
+          </div>
+
+          <div style="display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap;">
+            <a href="#bestsellers" class="btn btn-primary">Explore Diamond Edit</a>
+            <a href="#showroom" class="btn-underline" style="color: var(--text-primary);">Book Video Consultation &rarr;</a>
+          </div>
+        </div>
+
+        <div class="hero-romantic-media">
+          <div class="romantic-frame-primary">
+            <img src="assets/images/hero-romantic.jpg" alt="Carats by Grace lab-grown diamond collection" loading="lazy">
+          </div>
+          <div class="romantic-floating-card">
+            <div class="floating-icon-heart">✦</div>
+            <div>
+              <div class="floating-card-text">Direct Atelier Pricing</div>
+              <div class="floating-card-sub">40–60% more carat value vs mined</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== THE LAB-GROWN REVOLUTION (EDUCATIONAL PILLARS) ==================== -->
+    <section class="section-padding" id="science" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin-inline: auto; margin-bottom: clamp(2.5rem, 5vw, 4rem);">
+          <span class="eyebrow">&mdash; Science Meets Art &mdash;</span>
+          <h2 class="section-title">The Lab-Grown Diamond Truth</h2>
+          <p class="section-desc">
+            Chemically, physically, and optically identical to diamonds pulled from the earth — identical hardness (10 Mohs), fire, and scintillation.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Pillar 1 -->
+          <div class="feature-box" style="background-color: #FFFFFF; border-radius: 16px;">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 9l10 13 10-13-10-7z"/>
+            </svg>
+            <h3 class="feature-title">100% Real Crystallized Carbon</h3>
+            <p class="feature-desc">
+              Not cubic zirconia or moissanite. Lab-grown diamonds are authentic pure carbon diamonds grown with precise heat and pressure matching nature's mantle.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="feature-box" style="background-color: #FFFFFF; border-radius: 16px;">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+            <h3 class="feature-title">IGI Certified & Inscribed</h3>
+            <p class="feature-desc">
+              Each solitaire above 0.30 ct comes with an official certificate from the International Gemological Institute (IGI) and microscopic laser serial inscription.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="feature-box" style="background-color: #FFFFFF; border-radius: 16px;">
+            <svg class="feature-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <h3 class="feature-title">Zero Mining & 100% Conflict-Free</h3>
+            <p class="feature-desc">
+              Say yes with a clean conscience. No displaced ecosystems, no hazardous subterranean mining, and guaranteed peaceful provenance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SIGNATURE COLLECTIONS ==================== -->
+    <section class="section-padding" id="collections">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: clamp(2.5rem, 5vw, 4rem);">
+          <span class="eyebrow">&mdash; Curated by Nishi &mdash;</span>
+          <h2 class="section-title">The Signature Categories</h2>
+          <p class="section-desc">From your morning Zoom calls to cocktail receptions and grand wedding days.</p>
+        </div>
+
+        <div class="category-grid">
+          <!-- Item 1: Tennis Necklaces -->
+          <div class="category-card" style="border-radius: 18px; box-shadow: var(--shadow-sm);">
+            <img src="assets/images/celeste-necklace.jpg" alt="Diamond tennis necklace" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay" style="border-radius: 18px; background: linear-gradient(to top, rgba(51, 34, 30, 0.88) 0%, rgba(51, 34, 30, 0.15) 60%, transparent 100%);">
+              <h3 class="category-card-title">Tennis Necklaces</h3>
+              <span class="category-card-count" style="color: #F8E5E3;">Continuous Diamond Fire &bull; 3–10 ct</span>
+            </div>
+          </div>
+
+          <!-- Item 2: Solitaire Engagement Rings -->
+          <div class="category-card" style="border-radius: 18px; box-shadow: var(--shadow-sm);">
+            <img src="assets/images/grace-ring.jpg" alt="Lab diamond solitaire rings" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay" style="border-radius: 18px; background: linear-gradient(to top, rgba(51, 34, 30, 0.88) 0%, rgba(51, 34, 30, 0.15) 60%, transparent 100%);">
+              <h3 class="category-card-title">Solitaire Rings</h3>
+              <span class="category-card-count" style="color: #F8E5E3;">Oval, Cushion & Round &bull; 1–4 ct</span>
+            </div>
+          </div>
+
+          <!-- Item 3: Everyday Hoops & Studs -->
+          <div class="category-card" style="border-radius: 18px; box-shadow: var(--shadow-sm);">
+            <img src="assets/images/classic-hoops.jpg" alt="Everyday diamond hoops" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay" style="border-radius: 18px; background: linear-gradient(to top, rgba(51, 34, 30, 0.88) 0%, rgba(51, 34, 30, 0.15) 60%, transparent 100%);">
+              <h3 class="category-card-title">Everyday Studs & Hoops</h3>
+              <span class="category-card-count" style="color: #F8E5E3;">14K Solid Gold &bull; Daily Wear</span>
+            </div>
+          </div>
+
+          <!-- Item 4: Tennis Bracelets -->
+          <div class="category-card" style="border-radius: 18px; box-shadow: var(--shadow-sm);">
+            <img src="assets/images/aurora-bracelet.jpg" alt="Diamond tennis bracelet" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay" style="border-radius: 18px; background: linear-gradient(to top, rgba(51, 34, 30, 0.88) 0%, rgba(51, 34, 30, 0.15) 60%, transparent 100%);">
+              <h3 class="category-card-title">Tennis Bracelets</h3>
+              <span class="category-card-count" style="color: #F8E5E3;">Channel & Prong Set &bull; 2–5 ct</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BESTSELLERS (CARATS BY GRACE) ==================== -->
+    <section class="section-padding" id="bestsellers" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: clamp(2.5rem, 5vw, 3.5rem); flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">&mdash; Beloved by Our Community &mdash;</span>
+            <h2 class="section-title">Trending Diamond Pieces</h2>
+          </div>
+          <button class="btn-underline" style="color: var(--accent-gold);" onclick="showToast('Displaying full Carats by Grace catalogue.', '💎')">
+            View All Lab-Diamond Designs &rarr;
+          </button>
+        </div>
+
+        <div class="product-grid">
+          <!-- Item 1: Celeste Diamond Necklace -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-rose">IGI Certified</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="celeste-necklace" aria-label="Save to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/celeste-necklace.jpg" alt="Celeste Diamond Tennis Necklace" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="celeste-necklace">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Lab Diamonds &bull; 18K Gold</span>
+              <h3 class="product-title">Celeste Tennis Necklace</h3>
+              <div class="product-footer">
+                <span class="product-price">₹58,500</span>
+                <button class="product-add-btn" onclick="addToBag('celeste-necklace')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Grace Diamond Solitaire Ring -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-rose">Bestseller Solitaire</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="grace-ring" aria-label="Save to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/grace-ring.jpg" alt="Grace Cushion Solitaire Ring" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="grace-ring">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Solitaire &bull; IGI Inscribed</span>
+              <h3 class="product-title">Grace Solitaire Ring</h3>
+              <div class="product-footer">
+                <span class="product-price">₹1,45,000</span>
+                <button class="product-add-btn" onclick="addToBag('grace-ring')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Luna Pearl & Diamond Earrings -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-rose">Grace with Fashion Pick</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="luna-earrings" aria-label="Save to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/luna-earrings.jpg" alt="Luna Pearl & Diamond Earrings" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="luna-earrings">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Pearls &bull; 18K Diamonds</span>
+              <h3 class="product-title">Luna Pearl Drops</h3>
+              <div class="product-footer">
+                <span class="product-price">₹38,200</span>
+                <button class="product-add-btn" onclick="addToBag('luna-earrings')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Aurora Diamond Tennis Bracelet -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-rose">2.10 Carat River</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="aurora-bracelet" aria-label="Save to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/aurora-bracelet.jpg" alt="Aurora Tennis Bracelet" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="aurora-bracelet">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Bracelets &bull; Daily Luxe</span>
+              <h3 class="product-title">Aurora Tennis Bracelet</h3>
+              <div class="product-footer">
+                <span class="product-price">₹1,15,000</span>
+                <button class="product-add-btn" onclick="addToBag('aurora-bracelet')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOUNDER STORY: NISHI & PRATEEK ==================== -->
+    <section class="section-padding" id="founders">
+      <div class="container">
+        <div class="split-section reverse">
+          <div class="split-media">
+            <div style="border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-md);">
+              <img src="assets/images/romantic-moment.jpg" alt="Nishi and Prateek Carats by Grace" class="split-img" loading="lazy">
+            </div>
+            <div class="split-floating-note" style="border-radius: 16px;">
+              <div class="split-note-num" style="color: var(--accent-gold);">IGI</div>
+              <div class="split-note-text">Certified &bull; Handcrafted in India with Transparency</div>
+            </div>
+          </div>
+          <div class="split-content">
+            <span class="eyebrow">&mdash; The Story Behind the Sparkle &mdash;</span>
+            <h2 class="section-title">Founded by Nishi & Prateek</h2>
+            <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              Known to thousands across India through <em>Grace with Fashion</em>, Nishi has spent years curating personal style with authenticity. Together with Prateek, they founded <strong>Carats by Grace</strong> to challenge obsolete diamond traditions.
+            </p>
+            <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.75rem;">
+              &ldquo;Why should breathtaking diamond jewellery be reserved only for safes or once-in-a-decade milestones? With certified lab-grown diamonds, you get the exact same geological brilliance, zero mining exploitation, and the freedom to wear extraordinary sparkle every day.&rdquo;
+            </p>
+            <div style="display: flex; gap: 2rem; border-top: 1px solid var(--border-subtle); padding-top: 1.25rem;">
+              <div>
+                <strong style="font-size: 1.35rem; color: var(--text-primary); display: block;">10,000+</strong>
+                <span style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Community Muses</span>
+              </div>
+              <div>
+                <strong style="font-size: 1.35rem; color: var(--text-primary); display: block;">EF / VVS</strong>
+                <span style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Top Diamond Tier</span>
+              </div>
+              <div>
+                <strong style="font-size: 1.35rem; color: var(--text-primary); display: block;">14K & 18K</strong>
+                <span style="font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase;">Solid Hallmarked Gold</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INSTAGRAM REEL / LOOKBOOK GALLERY (@caratsbygrace) ==================== -->
+    <section class="section-padding" id="instagram" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: clamp(2.5rem, 5vw, 3.5rem); flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">&mdash; Real Styling on Instagram &mdash;</span>
+            <h2 class="section-title">As Seen on @caratsbygrace</h2>
+            <p class="section-desc text-left" style="margin: 0;">Follow our daily reels, customer brides, and jewellery layering guides.</p>
+          </div>
+          <a href="https://www.instagram.com/caratsbygrace" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: #C08A63; border-color: #C08A63; color: #FFF;">
+            Follow @caratsbygrace &rarr;
+          </a>
+        </div>
+
+        <div class="gifting-grid">
+          <!-- Reel 1 -->
+          <div class="gift-card" style="border-radius: 20px;">
+            <img src="assets/images/hero-editorial.jpg" alt="Instagram reel styling diamond necklace" loading="lazy">
+            <div class="gift-card-content">
+              <span class="badge badge-rose" style="width: max-content; margin-bottom: 0.4rem;">Instagram Reel</span>
+              <h3 class="gift-card-title" style="font-size: 1.35rem;">How to Stack 3 Tennis Necklaces</h3>
+              <span class="gift-card-sub" style="color: #FFEAE7;">Watch on @caratsbygrace</span>
+            </div>
+          </div>
+
+          <!-- Reel 2 -->
+          <div class="gift-card" style="border-radius: 20px;">
+            <img src="assets/images/gift-box.jpg" alt="Unboxing Carats by Grace luxury packaging" loading="lazy">
+            <div class="gift-card-content">
+              <span class="badge badge-rose" style="width: max-content; margin-bottom: 0.4rem;">Unboxing Experience</span>
+              <h3 class="gift-card-title" style="font-size: 1.35rem;">Rose Keepsake Velvet Box</h3>
+              <span class="gift-card-sub" style="color: #FFEAE7;">With IGI Certificate Card</span>
+            </div>
+          </div>
+
+          <!-- Reel 3 -->
+          <div class="gift-card" style="border-radius: 20px;">
+            <img src="assets/images/editorial-1.jpg" alt="Real bride wearing Carats by Grace" loading="lazy">
+            <div class="gift-card-content">
+              <span class="badge badge-rose" style="width: max-content; margin-bottom: 0.4rem;">Bridal Diaries</span>
+              <h3 class="gift-card-title" style="font-size: 1.35rem;">Our Lucknow Bride's Big Day</h3>
+              <span class="gift-card-sub" style="color: #FFEAE7;">Bespoke Cocktail Set</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LUCKNOW SHOWROOM & VIDEO APPOINTMENTS ==================== -->
+    <section class="section-padding" id="showroom">
+      <div class="container">
+        <div style="background-color: #33221E; color: #FFFFFF; border-radius: 24px; padding: clamp(3rem, 6vw, 5rem); position: relative; overflow: hidden;">
+          <div style="max-width: 650px; position: relative; z-index: 2;">
+            <span class="eyebrow" style="color: #DFC28A;">VISIT US IN PERSON OR VIRTUALLY</span>
+            <h2 class="section-title" style="color: #FFFFFF; margin-bottom: 1.25rem;">The Lucknow Flagship Showroom</h2>
+            <p style="font-size: 1.05rem; line-height: 1.7; color: rgba(255, 255, 255, 0.85); margin-bottom: 2rem;">
+              Step inside our private salon in <strong>Mahanagar, Lucknow</strong> to view solitaires under gemological loupes. Outside Lucknow? Book a 1-on-1 WhatsApp video appointment with our concierge team.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button class="btn btn-primary" onclick="showToast('WhatsApp Video Appointment request opened.', '📹')" style="background-color: #DFC28A; color: #33221E; border-color: #DFC28A;">
+                Book WhatsApp Video Tour
+              </button>
+              <button class="btn btn-secondary" onclick="showToast('Showroom directions sent: Mahanagar, Lucknow, UP.', '📍')" style="color: #FFFFFF; border-color: rgba(255, 255, 255, 0.4);">
+                Get Showroom Directions
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== BOUTIQUE FOOTER ==================== -->
+  <footer class="site-footer" id="contact" style="background-color: #33221E;">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="brand-wordmark" style="color: #FFFFFF;">CARATS BY GRACE</span>
+            <span class="brand-subtext" style="color: var(--accent-gold-light);">CONSCIOUS FINE DIAMONDS</span>
+          </div>
+          <p class="footer-desc">
+            Founded by Nishi & Prateek. Making extraordinary diamond sparkle honest, ethical, and accessible across India and worldwide.
+          </p>
+          <div style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.7); margin-top: 1rem;">
+            &bull; 100% Real IGI Lab-Grown Diamonds &bull; BIS Hallmarked &bull; Free Insured Shipping
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Diamond Edits</h4>
+          <ul class="footer-links">
+            <li><a href="#collections" class="footer-link">Tennis Necklaces (3–10 ct)</a></li>
+            <li><a href="#collections" class="footer-link">Solitaire Engagement Rings</a></li>
+            <li><a href="#collections" class="footer-link">Diamond Tennis Bracelets</a></li>
+            <li><a href="#collections" class="footer-link">Daily 14K Gold Studs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">The Brand</h4>
+          <ul class="footer-links">
+            <li><a href="#science" class="footer-link">Why Lab-Grown Diamonds</a></li>
+            <li><a href="#founders" class="footer-link">Nishi & Prateek's Story</a></li>
+            <li><a href="https://www.instagram.com/caratsbygrace" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram: @caratsbygrace</a></li>
+            <li><a href="#showroom" class="footer-link">Lucknow Showroom</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Showroom & Care</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span>Flagship: Mahanagar, Lucknow, UP</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span>+91 98200 12345 (WhatsApp Available)</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span>hello@caratsbygrace.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CARATS BY GRACE &bull; Inspired by @caratsbygrace</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="home-1.html">Home 1</a>
+          <a href="home-2.html">Home 2</a>
+          <a href="home-3.html">Home 3</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== QUICK-VIEW PRODUCT MODAL ==================== -->
+  <div class="modal-overlay" id="quickview-modal" role="dialog" aria-modal="true" aria-label="Product Details Modal">
+    <div class="quickview-card" style="border-radius: 20px;">
+      <button class="modal-close-btn" id="quickview-close" aria-label="Close modal">&times;</button>
+      <div class="quickview-image-pane">
+        <img id="qv-image" src="assets/images/luna-earrings.jpg" alt="Jewellery Piece">
+      </div>
+      <div class="quickview-details-pane">
+        <span class="quickview-category" id="qv-category">Earrings</span>
+        <h3 class="quickview-title" id="qv-title">Luna Pearl Earrings</h3>
+        <div class="quickview-price" id="qv-price">₹38,200</div>
+        <p class="quickview-desc" id="qv-desc">
+          Lustrous hand-picked pearls suspended gracefully from sculpted 18K solid gold drop hooks with brilliant IGI lab-grown diamonds.
+        </p>
+
+        <div class="quickview-spec-list">
+          <div class="quickview-spec-item">
+            <span>Metal Setting</span>
+            <strong id="qv-metal">18K Solid Gold</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Diamond Certification</span>
+            <strong id="qv-stone">IGI Certified Lab-Grown (EF, VVS)</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Packaging</span>
+            <strong>Rose Velvet Box & Calligraphy Note</strong>
+          </div>
+        </div>
+
+        <div class="quickview-actions">
+          <button class="btn btn-primary" id="qv-add-bag" style="flex: 2;">Add to Bag</button>
+          <button class="btn btn-secondary" id="qv-add-wishlist" style="flex: 1;">Save ♡</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SHOPPING BAG DRAWER ==================== -->
+  <aside class="drawer-panel" id="bag-drawer" aria-label="Shopping Bag Slide-over">
+    <div class="drawer-header">
+      <h3 class="drawer-title">
+        <span style="font-family: var(--font-heading);">Your Diamond Bag</span>
+      </h3>
+      <button class="mobile-close-btn" id="bag-drawer-close" aria-label="Close bag">&times;</button>
+    </div>
+    <div class="drawer-body" id="bag-drawer-items"></div>
+    <div class="drawer-footer">
+      <div class="drawer-subtotal">
+        <span>Subtotal</span>
+        <span id="bag-drawer-subtotal">₹58,500</span>
+      </div>
+      <p style="font-size: 0.72rem; color: #888; margin-bottom: 1.25rem;">
+        * Includes signature rose keepsake packaging, IGI certificate card & insured delivery.
+      </p>
+      <button class="btn btn-primary" id="drawer-checkout-btn" style="width: 100%;">Order with Concierge</button>
+    </div>
+  </aside>
+
+  <!-- ==================== SEARCH MODAL OVERLAY ==================== -->
+  <div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Search Catalogue">
+    <div class="search-modal-header">
+      <div class="brand-logo">
+        <span class="brand-wordmark" style="font-size: 1.2rem;">CARATS BY GRACE</span>
+        <span class="brand-subtext" style="color: var(--accent-gold);">DIAMOND SEARCH</span>
+      </div>
+      <button class="modal-close-btn" id="search-close-btn" aria-label="Close search overlay">&times;</button>
+    </div>
+    <div class="search-bar-wrap">
+      <input type="text" class="search-input-field" id="search-input" placeholder="Search tennis necklaces, solitaire rings, studs..." autocomplete="off">
+    </div>
+    <div class="search-results-grid" id="search-results"></div>
+  </div>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

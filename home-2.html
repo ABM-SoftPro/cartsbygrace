@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARATS ATELIER | Modern Editorial Luxury</title>
+  <meta name="description" content="Contemporary, fashion-forward jewellery designed to define your style. Modern heirlooms and unexpected details.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23111111'><path d='M12 2L2 9l10 13 10-13-10-7z'/></svg>">
+</head>
+<body class="theme-dark theme-editorial">
+
+  <!-- ==================== ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    NOIR HIGH JEWELLERY &bull; GILDED 18K SOLID GOLD & LUMINOUS DIAMONDS &bull; INSURED DELIVERY
+  </div>
+
+  <!-- ==================== GLOBAL NAVBAR ==================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="home-2.html" class="brand-logo" aria-label="Carats Atelier Dark Luxury">
+        <span class="brand-wordmark">CARATS ATELIER</span>
+        <span class="brand-subtext" style="color: #D4AF37;">NOIR ARCHIVE &bull; DARK LUXURY</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <div class="nav-concept-group" title="Select Homepage Experience">
+          <a href="home-1.html" class="nav-concept-link" data-concept="home-1">Home 1</a>
+          <a href="home-2.html" class="nav-concept-link active" data-concept="home-2">Home 2</a>
+          <a href="home-3.html" class="nav-concept-link" data-concept="home-3">Home 3</a>
+        </div>
+        <a href="#campaign" class="nav-link">Campaign</a>
+        <a href="#trending" class="nav-link">Trending</a>
+        <a href="#lookbook" class="nav-link">Lookbook</a>
+        <a href="#styles" class="nav-link">Shop By Style</a>
+        <a href="#contact" class="nav-link">Press & Atelier</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="action-btn search-trigger-btn" aria-label="Search Catalogue">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </button>
+
+        <button class="action-btn" id="header-wishlist-btn" aria-label="View Saved">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+          <span class="action-badge wishlist-count-badge" style="display: none;">0</span>
+        </button>
+
+        <button class="action-btn" id="header-bag-btn" aria-label="View Shopping Bag">
+          <svg class="action-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+          </svg>
+          <span class="action-badge bag-count-badge">1</span>
+        </button>
+
+        <button class="mobile-toggle" aria-label="Open Mobile Menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE DRAWER ==================== -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand-logo">
+          <span class="brand-wordmark" style="font-size: 1.25rem;">CARATS ATELIER</span>
+          <span class="brand-subtext">EDITORIAL EDITION</span>
+        </div>
+        <button class="mobile-close-btn" aria-label="Close Mobile Menu">&times;</button>
+      </div>
+
+      <div class="mobile-concept-list">
+        <span class="mobile-concept-title">Select Experience:</span>
+        <a href="home-1.html" class="nav-concept-link" data-concept="home-1">Home 1</a>
+        <a href="home-2.html" class="nav-concept-link active" data-concept="home-2">Home 2</a>
+        <a href="home-3.html" class="nav-concept-link" data-concept="home-3">Home 3</a>
+      </div>
+
+      <nav class="mobile-nav-links">
+        <a href="#campaign" class="mobile-nav-link">Editorial Campaign</a>
+        <a href="#trending" class="mobile-nav-link">Trending Now</a>
+        <a href="#lookbook" class="mobile-nav-link">Visual Lookbook</a>
+        <a href="#styles" class="mobile-nav-link">Shop By Style</a>
+        <a href="#contact" class="mobile-nav-link">Contact & Atelier</a>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== HERO SECTION (DARK EDITORIAL LUXURY) ==================== -->
+    <section class="hero-editorial" id="hero" style="background: radial-gradient(circle at 75% 30%, #1D1A25 0%, #111014 100%);">
+      <div class="container hero-editorial-grid">
+        <div class="hero-editorial-text">
+          <div class="editorial-tag" style="color: #D4AF37;">VOL. 02 &bull; NOIR HIGH JEWELLERY ARCHIVE</div>
+          <h1 class="hero-editorial-title" style="color: #F7F5F0;">BEYOND THE ORDINARY.</h1>
+          <p class="hero-editorial-desc" style="color: #BBB6AD;">
+            Midnight heirlooms. Sculptural shadows. Unexpected details. Jewellery cast to define your evening style in solid 18K gold and luminous, high-clarity diamonds.
+          </p>
+          <div style="display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap;">
+            <a href="#trending" class="btn btn-primary">Explore Noir Edit</a>
+            <a href="#lookbook" class="btn-underline" style="padding-left: 0.5rem; color: #D4AF37;">View Lookbook &rarr;</a>
+          </div>
+        </div>
+
+        <div class="hero-editorial-media">
+          <img src="assets/images/hero-editorial.jpg" alt="Artistic jewellery editorial campaign with model" class="hero-editorial-primary-img">
+          <div class="hero-editorial-floating-badge">
+            <div class="year">2026</div>
+            <div class="text">Sculptural Form &bull; Atelier Series</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDITORIAL CAMPAIGN GALLERY (ASYMMETRICAL SPREAD) ==================== -->
+    <section class="section-padding" id="campaign">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">Editorial Archive</span>
+            <h2 class="section-title">The Geometry of Desire</h2>
+          </div>
+          <p class="section-desc text-left" style="margin: 0; max-width: 440px;">
+            A deliberate departure from predictable ornament. We treat pure gold as an architectural medium.
+          </p>
+        </div>
+
+        <div class="editorial-spread-grid">
+          <!-- Asymmetric tall card -->
+          <div class="spread-card tall">
+            <img src="assets/images/editorial-1.jpg" alt="High fashion editorial model wearing fine jewelry" loading="lazy">
+            <div class="spread-caption">
+              <span class="spread-caption-title">The Heavy Link Chain</span>
+              <span class="spread-caption-num">PL. 01</span>
+            </div>
+          </div>
+
+          <!-- Standard landscape 1 -->
+          <div class="spread-card standard">
+            <img src="assets/images/materials-gold.jpg" alt="Sculptural 18K solid gold rings" loading="lazy">
+            <div class="spread-caption">
+              <span class="spread-caption-title">Sculptural Solitaires</span>
+              <span class="spread-caption-num">PL. 02</span>
+            </div>
+          </div>
+
+          <!-- Standard landscape 2 -->
+          <div class="spread-card standard">
+            <img src="assets/images/editorial-3.jpg" alt="Artistic portrait with diamond earrings" loading="lazy">
+            <div class="spread-caption">
+              <span class="spread-caption-title">The Luminary Earring</span>
+              <span class="spread-caption-num">PL. 03</span>
+            </div>
+          </div>
+
+          <!-- Wide bottom block spanning 2 cols -->
+          <div class="spread-card standard" style="grid-column: 2 / span 2; aspect-ratio: 16/7;">
+            <img src="assets/images/editorial-2.jpg" alt="Fine jewellery close-up" loading="lazy">
+            <div class="spread-caption">
+              <span class="spread-caption-title">Modern Architectural Forms in 18K Gold</span>
+              <span class="spread-caption-num">PL. 04</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TRENDING NOW COLLECTION ==================== -->
+    <section class="section-padding" id="trending" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">Curated Pieces</span>
+            <h2 class="section-title">Trending This Season</h2>
+          </div>
+          <span style="font-size: 0.76rem; letter-spacing: 0.2em; text-transform: uppercase; color: #777;">4 ESSENTIAL EDITS</span>
+        </div>
+
+        <div class="product-grid">
+          <!-- Item 1: Solstice Pendant -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-dark">01 &bull; Editorial Pick</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="solstice-pendant" aria-label="Save Solstice Pendant to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/solstice-pendant.jpg" alt="Solstice Pendant" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="solstice-pendant">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Pendants &bull; 18K Solid</span>
+              <h3 class="product-title">Solstice Pendant</h3>
+              <div class="product-footer">
+                <span class="product-price">₹46,000</span>
+                <button class="product-add-btn" onclick="addToBag('solstice-pendant')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Étoile Stud Earrings -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-dark">02 &bull; Minimalist</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="etoile-studs" aria-label="Save Étoile Stud Earrings to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/etoile-studs.jpg" alt="Étoile Stud Earrings" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="etoile-studs">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Earrings &bull; Diamonds</span>
+              <h3 class="product-title">Étoile Stud Earrings</h3>
+              <div class="product-footer">
+                <span class="product-price">₹32,500</span>
+                <button class="product-add-btn" onclick="addToBag('etoile-studs')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: The Classic Gold Hoops -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-dark">03 &bull; Stacking</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="classic-hoops" aria-label="Save The Classic Gold Hoops to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/classic-hoops.jpg" alt="The Classic Gold Hoops" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="classic-hoops">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Earrings &bull; Mirror Polish</span>
+              <h3 class="product-title">The Classic Gold Hoops</h3>
+              <div class="product-footer">
+                <span class="product-price">₹29,800</span>
+                <button class="product-add-btn" onclick="addToBag('classic-hoops')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Signature Solitaire Ring -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <div class="product-badges">
+                <span class="badge badge-dark">04 &bull; High Luxury</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="signature-solitaire" aria-label="Save Signature Solitaire Ring to Wishlist">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                </svg>
+              </button>
+              <img src="assets/images/signature-solitaire.jpg" alt="Signature Solitaire Ring" class="product-img" loading="lazy">
+              <button class="product-quickview-btn" data-product-id="signature-solitaire">Quick View</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">Rings &bull; Platinum Mount</span>
+              <h3 class="product-title">Signature Solitaire Ring</h3>
+              <div class="product-footer">
+                <span class="product-price">₹1,85,000</span>
+                <button class="product-add-btn" onclick="addToBag('signature-solitaire')">+ Add to Bag</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LARGE TYPOGRAPHY BRAND STATEMENT ==================== -->
+    <section class="editorial-statement">
+      <div class="container">
+        <blockquote class="statement-quote">
+          &ldquo;FORM FOLLOWS DESIRE — CONTEMPORARY SCULPTURAL JEWELLERY FOR THE MODERN ICON.&rdquo;
+        </blockquote>
+        <div class="statement-author">CARATS ATELIER EDITORIAL MANIFESTO &bull; PARIS & MUMBAI</div>
+      </div>
+    </section>
+
+    <!-- ==================== SHOP BY STYLE (CURATED MODERN MOODS) ==================== -->
+    <section class="section-padding" id="styles">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: clamp(2.5rem, 5vw, 4rem);">
+          <span class="eyebrow">Curation By Form</span>
+          <h2 class="section-title">Shop by Aesthetic Style</h2>
+        </div>
+
+        <div class="category-grid">
+          <!-- Style 1 -->
+          <div class="category-card" style="aspect-ratio: 1/1.2;">
+            <img src="assets/images/cat-rings.jpg" alt="Sculptural gold rings" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Sculptural Gold</h3>
+              <span class="category-card-count">Bold 18K Polished Metal</span>
+            </div>
+          </div>
+
+          <!-- Style 2 -->
+          <div class="category-card" style="aspect-ratio: 1/1.2;">
+            <img src="assets/images/grace-ring.jpg" alt="Solitary diamond ring" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Solitary Diamonds</h3>
+              <span class="category-card-count">Geometric Pavé & Solitaires</span>
+            </div>
+          </div>
+
+          <!-- Style 3 -->
+          <div class="category-card" style="aspect-ratio: 1/1.2;">
+            <img src="assets/images/cat-earrings.jpg" alt="Architectural pearl earrings" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Architectural Pearls</h3>
+              <span class="category-card-count">South Sea Baroque & Drops</span>
+            </div>
+          </div>
+
+          <!-- Style 4 -->
+          <div class="category-card" style="aspect-ratio: 1/1.2;">
+            <img src="assets/images/aurora-bracelet.jpg" alt="Everyday diamond stacks" class="category-card-img" loading="lazy">
+            <div class="category-card-overlay">
+              <h3 class="category-card-title">Everyday Stacks</h3>
+              <span class="category-card-count">Tennis Bracelets & Cuffs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VISUAL LOOKBOOK SECTION ==================== -->
+    <section class="section-padding" id="lookbook" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <span class="eyebrow">Lookbook No. 04</span>
+            <h2 class="section-title">The Kinetic Series</h2>
+          </div>
+          <button class="btn btn-secondary" onclick="showToast('Lookbook Look-01 to Look-12 loaded in full resolution gallery.', '📷')">
+            Download High-Res Lookbook (PDF)
+          </button>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1.5rem;">
+          <div style="position: relative; overflow: hidden; background: #000;">
+            <img src="assets/images/hero-editorial.jpg" alt="Kinetic lookbook main" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.9;" loading="lazy">
+            <div style="position: absolute; bottom: 20px; left: 20px; color: #fff;">
+              <span style="font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;">LOOK 01 &bull; KINETIC CHAIN</span>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div style="position: relative; overflow: hidden; height: 100%;">
+              <img src="assets/images/editorial-3.jpg" alt="Kinetic lookbook 2" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+            <div style="position: relative; overflow: hidden; height: 100%;">
+              <img src="assets/images/celeste-necklace.jpg" alt="Kinetic lookbook 3" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+          </div>
+          <div style="position: relative; overflow: hidden; background: #111; padding: 2rem; display: flex; flex-direction: column; justify-content: space-between; color: #FFF;">
+            <div>
+              <span style="font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: #888;">CURATOR NOTE</span>
+              <p style="font-family: var(--font-bodoni); font-size: 1.5rem; line-height: 1.3; margin-top: 1rem;">
+                &ldquo;We embrace tension between sharp modern geometry and the liquid warmth of solid yellow gold.&rdquo;
+              </p>
+            </div>
+            <a href="#trending" class="btn-underline" style="color: #FFF; width: max-content;">Explore Selected Pieces &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BOLD PROMOTIONAL CAMPAIGN BANNER ==================== -->
+    <section class="promo-banner" style="background-color: #111111;">
+      <img src="assets/images/craft-atelier.jpg" alt="Craft workshop" class="promo-banner-bg" style="opacity: 0.2;" loading="lazy">
+      <div class="container promo-banner-content">
+        <span class="eyebrow" style="color: #C4C4C4;">PRIVATE COMMISSIONS</span>
+        <h2 class="promo-banner-title">BESPOKE ARCHITECTURAL FINE JEWELLERY</h2>
+        <p class="promo-banner-desc">
+          Collaborate directly with our design director to create a one-of-a-kind engagement piece or personal heirloom.
+        </p>
+        <button class="btn btn-primary" onclick="showToast('Private Atelier Consultation booking opened.', '✦')" style="background-color: #FFFFFF; color: #111111;">
+          Request Salon Appointment
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== NEWSLETTER SECTION ==================== -->
+    <section class="section-padding newsletter-section" style="background-color: #17151D; border-top: 1px solid rgba(212, 175, 55, 0.15); border-bottom: 1px solid rgba(212, 175, 55, 0.15);">
+      <div class="container">
+        <div class="newsletter-card">
+          <span class="eyebrow">EDITORIAL GAZETTE</span>
+          <h2 class="section-title">SUBSCRIBE TO THE ARCHIVE</h2>
+          <p class="section-desc">Receive monthly editorial lookbooks, design essays, and priority access to limited drops.</p>
+          
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <div class="newsletter-feedback"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== MINIMAL BLACK & WHITE FOOTER ==================== -->
+  <footer class="site-footer" id="contact" style="background-color: #111111;">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="brand-wordmark" style="color: #FFFFFF;">CARATS ATELIER</span>
+            <span class="brand-subtext" style="color: #888;">EDITORIAL LUXURY</span>
+          </div>
+          <p class="footer-desc">
+            An independent fine jewellery study balancing architectural restraint with uncompromising artisanal excellence.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">THE EDIT</h4>
+          <ul class="footer-links">
+            <li><a href="#trending" class="footer-link">Sculptural Rings</a></li>
+            <li><a href="#trending" class="footer-link">Heavy Chains & Pendants</a></li>
+            <li><a href="#trending" class="footer-link">Baroque Pearl Drops</a></li>
+            <li><a href="#trending" class="footer-link">Diamond Channel Cuffs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">ATELIER</h4>
+          <ul class="footer-links">
+            <li><a href="#campaign" class="footer-link">Editorial Campaigns</a></li>
+            <li><a href="#lookbook" class="footer-link">Lookbook Archive</a></li>
+            <li><a href="javascript:void(0)" onclick="showToast('Sourcing: 100% RJC-certified gold and Kimberley diamonds.', '✓')" class="footer-link">Sustainability Report</a></li>
+            <li><a href="javascript:void(0)" onclick="showToast('Press requests: press@caratsatelier.com', '✉')" class="footer-link">Press Inquiries</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">SALONS</h4>
+          <p style="font-size: 0.84rem; color: #888; line-height: 1.8;">
+            Flagship Atelier: Kala Ghoda, Mumbai<br>
+            Design Studio: Paris 1er<br>
+            Appointments: concierge@caratsatelier.com
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CARATS ATELIER &bull; Concept 02: Modern Editorial Luxury</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="home-1.html">Home 1</a>
+          <a href="home-2.html">Home 2</a>
+          <a href="home-3.html">Home 3</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== QUICK-VIEW PRODUCT MODAL ==================== -->
+  <div class="modal-overlay" id="quickview-modal" role="dialog" aria-modal="true" aria-label="Product Details Modal">
+    <div class="quickview-card">
+      <button class="modal-close-btn" id="quickview-close" aria-label="Close modal">&times;</button>
+      <div class="quickview-image-pane">
+        <img id="qv-image" src="assets/images/solstice-pendant.jpg" alt="Jewellery Piece">
+      </div>
+      <div class="quickview-details-pane">
+        <span class="quickview-category" id="qv-category">Pendants</span>
+        <h3 class="quickview-title" id="qv-title">Solstice Pendant</h3>
+        <div class="quickview-price" id="qv-price">₹46,000</div>
+        <p class="quickview-desc" id="qv-desc">
+          Inspired by ancient celestial talismans, featuring radiant hand-engraved fluted gold rays surrounding a sparkling center solitaire.
+        </p>
+
+        <div class="quickview-spec-list">
+          <div class="quickview-spec-item">
+            <span>Material</span>
+            <strong id="qv-metal">18K Solid Gold</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Stones</span>
+            <strong id="qv-stone">Round Brilliant Diamond</strong>
+          </div>
+          <div class="quickview-spec-item">
+            <span>Standard</span>
+            <strong>BIS Hallmarked Fine Gold</strong>
+          </div>
+        </div>
+
+        <div class="quickview-actions">
+          <button class="btn btn-primary" id="qv-add-bag" style="flex: 2;">Add to Bag</button>
+          <button class="btn btn-secondary" id="qv-add-wishlist" style="flex: 1;">Save ♡</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SHOPPING BAG DRAWER ==================== -->
+  <aside class="drawer-panel" id="bag-drawer" aria-label="Shopping Bag Slide-over">
+    <div class="drawer-header">
+      <h3 class="drawer-title">
+        <span>ATELIER BAG</span>
+      </h3>
+      <button class="mobile-close-btn" id="bag-drawer-close" aria-label="Close bag">&times;</button>
+    </div>
+    <div class="drawer-body" id="bag-drawer-items"></div>
+    <div class="drawer-footer">
+      <div class="drawer-subtotal">
+        <span>SUBTOTAL</span>
+        <span id="bag-drawer-subtotal">₹58,500</span>
+      </div>
+      <button class="btn btn-primary" id="drawer-checkout-btn" style="width: 100%;">CONTINUE TO CHECKOUT</button>
+    </div>
+  </aside>
+
+  <!-- ==================== SEARCH MODAL OVERLAY ==================== -->
+  <div class="search-modal" id="search-modal" role="dialog" aria-modal="true" aria-label="Search Catalogue">
+    <div class="search-modal-header">
+      <div class="brand-logo">
+        <span class="brand-wordmark" style="font-size: 1.2rem;">CARATS ATELIER</span>
+        <span class="brand-subtext">ARCHIVE SEARCH</span>
+      </div>
+      <button class="modal-close-btn" id="search-close-btn" aria-label="Close search overlay">&times;</button>
+    </div>
+    <div class="search-bar-wrap">
+      <input type="text" class="search-input-field" id="search-input" placeholder="Type piece name or category..." autocomplete="off">
+    </div>
+    <div class="search-results-grid" id="search-results"></div>
+  </div>
+
+
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" aria-label="Scroll back to top">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
